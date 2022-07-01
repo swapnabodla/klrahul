@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    background-color: #e5e5e5;
+    min-height: 100vh;
+    border: 10px solid #1d1e4c;
+    color: blue;
+
+    background-image: url(pic.webp);
+    background-size: cover;
+}
+.image_container{
+    border-radius: 80%;
+    overflow: hidden;
+}
+
+.content{
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+h1{
+
+    font-size: 60px;
+
+    position: relative;
+    bottom: 100px;
+}
+
